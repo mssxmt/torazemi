@@ -1,17 +1,12 @@
 import React from 'react';
-import Article from './Article';
+import Article from "./Article";
 
-class Blog extends React.Compornent {
-    constructor(props) {
-        super(props);
-    }
-    render() {
+function Blog () {
         return(
             <div>
                 <Article />
             </div>
         )
-    }
 }
 
-export default Blog;
+export default Blog
